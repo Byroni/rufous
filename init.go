@@ -41,7 +41,7 @@ func initProject(c *cli.Context) error {
 		cyan.Println("rufous init <project-directory>\n")
 
 		fmt.Println("For example:")
-		cyan.Println("rufous init myNewJob")
+		cyan.Println("rufous init my-project-folder")
 
 		printHelpStatement()
 
