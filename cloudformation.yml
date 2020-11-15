@@ -1,0 +1,69 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Metadata": {
+    "AWS::CloudFormation::Designer": {
+      "43cb19b4-0ab2-4319-aef4-8ae79399ef4f": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 292,
+          "y": 92
+        },
+        "z": 0
+      },
+      "36f30637-db7c-40ec-b2b9-dd85eb7b9192": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 140,
+          "y": 140
+        },
+        "z": 0
+      },
+      "ed766d3e-4373-485e-9abb-b238bd158e54": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 240,
+          "y": 200
+        },
+        "z": 0
+      }
+    }
+  },
+  "Resources": {
+    "CWA31K8D": {
+      "Type": "AWS::CloudWatch::Alarm",
+      "Properties": {},
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "43cb19b4-0ab2-4319-aef4-8ae79399ef4f"
+        }
+      }
+    },
+    "S3BF2AF": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {},
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "36f30637-db7c-40ec-b2b9-dd85eb7b9192"
+        }
+      }
+    },
+    "DDBT258Y0": {
+      "Type": "AWS::DynamoDB::Table",
+      "Properties": {},
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "ed766d3e-4373-485e-9abb-b238bd158e54"
+        }
+      }
+    }
+  }
+}
