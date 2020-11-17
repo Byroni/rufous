@@ -62,16 +62,15 @@ func main() {
 					},
 				},
 				Action: func(c *cli.Context) error {
-					cyan.Println("Uploading project folder to lambda")
-					return nil
+					return upload(sess)
 				},
 			},
 			{
 				Name:  "list",
 				Usage: "[COMING SOON] See currently scheduled jobs",
 				Action: func(c *cli.Context) error {
-					cyan.Println("See currently scheduled jobs")
-					return nil
+					return list(sess)
+
 				},
 			},
 			{
